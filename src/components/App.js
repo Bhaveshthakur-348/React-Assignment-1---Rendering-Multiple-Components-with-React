@@ -1,11 +1,13 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React, { Component, useState } from "react";
+import "../styles/App.css";
 
 const App = () => {
   return (
-    <div id="main"></div>
-  )
-}
-
+    <>
+      <p data-ns-test="project-name">Name</p>
+      <p data-ns-test="project-description">Description</p>
+    </>
+  );
+};
 
 export default App;
